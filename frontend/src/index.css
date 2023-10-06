@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Kanit';
+font-family: 'Poppins';
+font-family: 'Roboto Condensed';
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar{
+  width: 0px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fontfamily{
+  font-family: 'Kanit';
+  font-family: 'Poppins';
+  font-family: 'Roboto Condensed';
+}
+
+
+/* Video Component */
+
+
+.vcontainer {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 80%;
+  /* overflow: hidden; */
+}
+
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.videoPlayer {
+  border-radius: 1em;
+  z-index: -1;
+}
+
+.controlsContainer {
+  margin-top: -3.5em;
+}
+
+.controls {
+  display: flex;
+  z-index: 1;
+  color: white;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.controlButton {
+  border: none;
+  background: none;
+}
+
+.timeline {
+  width: 70%;
+}
+
+.duration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controlButton:hover {
+  cursor: pointer;
+}
+
+
+/* Video Component */
